@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<language>
+		<adCountdown>[$second]</adCountdown><!--广告播放结束倒计时-->
+		<skipDelay>[$second]</skipDelay>
+		<buttonOver>
+			<play>play</play>
+			<pause>pause</pause>
+			<mute>silent</mute>
+			<escMute>restore vol</escMute>
+			<full>fullscreen</full>
+			<escFull>exit fullscreen</escFull>
+			<previousPage>next</previousPage>
+			<nextPage>previous</nextPage>
+			<definition>sharpness</definition>
+		</buttonOver>
+		<volumeSliderOver>
+			voulme：[$volume]%
+		</volumeSliderOver>
+		<buffer>[$percentage]%</buffer>
+		<timeSliderOver><!--鼠标经过进度条显示的时间格式-->
+			[$timeh]:[$timei]:[$times]
+		</timeSliderOver>
+		<liveAndVod>
+			[$timeh]:[$timei]:[$times]
+		</liveAndVod>
+		<live>
+			Streaming [$liveTimeY]-[$liveTimem]-[$liveTimed] [$liveTimeh]:[$liveTimei]:[$liveTimes]
+		</live>
+		<m3u8Definition>
+			<name>480p</name>
+			<name>114p</name>
+			<name>720p</name>
+			<name></name>
+			<name>1080</name>
+			<name>114p</name>
+			<name>auto</name>
+		</m3u8Definition>
+		<error>
+			<cannotFindUrl>video source not found</cannotFindUrl>
+			<streamNotFound>download failurer</streamNotFound>
+			<formatError>unsupported video format</formatError>
+		</error>
+		<definition>auto</definition>
+	</language>
